@@ -67,3 +67,23 @@ def count_draws_until_sum_exceeds(limit: int = 42) -> int:
 
 return: 7
 '''
+
+'''
+4
+Repeatedly prompt the user for a fraction of the form X/Y where:
+
+X is a non-negative integer
+Y is a positive integer
+X <= Y
+When valid, compute the percentage round(100 * X / Y) and output:
+
+E if the percentage is 5% or less
+F if the percentage is 95% or more
+otherwise output NN% (e.g., 75.59%)
+If input is invalid (not integers, Y == 0, or X > Y), 
+prompt again
+(Catching ValueError / ZeroDivisionError is acceptable)
+
+def fuel_status() -> str:
+  pass 
+'''
