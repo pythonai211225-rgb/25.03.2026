@@ -44,6 +44,14 @@ Otherwise print "no"
  * BONUS -- try using all
 '''
 
+def star_odd(word: str) -> bool:
+  return all(letter == '*' for letter in word[1::2])
+
+if star_odd("1*2*3*4*"):
+    print('Yes')
+else:
+    print('No')
+
 '''
 3
 Write a function that generates random integers between 0 and 10 (inclusive) 
