@@ -57,5 +57,5 @@ def count_draws_until_sum_exceeds(limit: int = 42) -> int:
 8 10 8 4 6 7 1 
 43
 
-answer: 7
+return: 7
 '''
