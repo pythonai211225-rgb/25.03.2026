@@ -87,3 +87,40 @@ prompt again
 def fuel_status() -> str:
   pass 
 '''
+
+'''
+5
+Input: one variable name in camelCase (assume valid camelCase)
+Output: the same name converted to snake_case
+Example: preferredFirstName → preferred_first_name
+
+def camel_to_snake(name: str) -> str:
+  pass
+'''
+
+'''
+6
+Write a function word_frequencies(text) that returns a dictionary mapping
+each word (lowercased) to the number of times it appears
+Assume words are separated by whitespace
+
+Example: "To be or not to be" → {"to": 2, "be": 2, "or": 1, "not": 1}
+def count_freq(sentence: str) -> dict[str, int]:
+  pass
+'''
+
+'''
+7
+email
+def check_sender(email: str) -> bool:
+  pas
+  
+stephen.marquard@uct.ac.za
+
+must contain fname + lname seperated by .
+must be a . in the name (before the @)
+name must be at least 2 letters fname and 2 letetr lname (before the @)
+org must be 3 words with 2 dots (after the @)   
+each word 2 letters at least (after the @)
+  
+'''
