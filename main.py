@@ -37,5 +37,25 @@ Otherwise print "no"
  0123
   1 3
 "1*2*"
+"a*y*u*i*o*"
+  1 3 5 7 9
+ 0123456789
+ 
+ * BONUS -- try using all
+'''
 
+'''
+3
+Write a function that generates random integers between 0 and 10 (inclusive) 
+until the  sum becomes greater than 42
+The program must print how many numbers were generated
+(print the random generated numbers [for debug])
+
+def count_draws_until_sum_exceeds(limit: int = 42) -> int:
+  pass
+
+8 10 8 4 6 7 1 
+43
+
+answer: 7
 '''
